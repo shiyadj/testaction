@@ -1,0 +1,17 @@
+name: first_action_wf
+on: workflow_dispatch
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: print-greeting
+        run: echo "Good Morning"
+      - name: Print-evening
+        run: echo "Good Evening"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+     -name: ls-output-of-runner
+       run: ls -l
+       
+     
