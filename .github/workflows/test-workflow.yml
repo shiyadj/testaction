@@ -9,7 +9,7 @@ jobs:
       - name: Print evening
         run: echo "Good Evening"
       - name: Testing
-        run:|
+        run: |
         echo "Test printing with `uname -a`"
         echo " Second line"
         echo " Third line success"
