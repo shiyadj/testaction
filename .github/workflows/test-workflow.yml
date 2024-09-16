@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      -name: ls-output-of-runner
-       run: ls -l
+       run: ls
        
      
