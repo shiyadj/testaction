@@ -8,5 +8,8 @@ jobs:
         run: echo "Good Morning"
       - name: Print evening
         run: echo "Good Evening"
+      - name: Testing
+        run: echo "Test printing with `uname -a`"
+        
        
      
