@@ -10,9 +10,9 @@ jobs:
         run: echo "Good Evening"
       - name: Testing
         run: |
-        echo "Test printing with `uname -a`"
-        echo " Second line"
-        echo " Third line success"
+          echo "Test printing with"
+          echo "Second line"
+          echo "Third line success"
         
        
      
